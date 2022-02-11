@@ -1,14 +1,4 @@
-Banco de Dados II e Programação para Internet
-Prof. Willian Bolzan
-Exercício Som
 
-
-Modelo
-
-
-Script DDL
-
-﻿
 CREATE TABLE GRAVADORA (
        id serial NOT NULL,
        Nome       VARCHAR(60) NULL,
@@ -67,10 +57,6 @@ CREATE TABLE FAIXA (
 
 
 
-
- 
-
-Script DML
 -- TABELA DE AUTOR
 INSERT INTO AUTOR ( NOME)
  VALUES ('Renato Russo' );
